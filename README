@@ -1,0 +1,25 @@
+***************************** Personal Link Handler ****************************
+=============== Goals ===============
+Design a system that can take a shortened URL link and produce some operational 
+output on the system.
+An example might be: "tll://open?operation=1024j" could open a browser in a new
+in a new tab and open someone's JIRA dashboard.
+
+Another example: "tll://note?title=new-note-example&editor=vim" might open a new
+note with a specific title in vim, if it's available. 
+
+=========== Design Ideas ============
+~litestream~
+Using litestream and AWS S3 for my "backend" database backup solution.
+
+~platform code~
+Several options. Currently using Python3 as the backend application. 
+Would seriously consider using Lua with a C-runtime implementation for the 
+network stack and a sqlite3 import.
+
+
+@@@@@@@@@@ Investigate @@@@@@@@@@
+What does the overhead of using Lua give in return?
+
+
+********************************************************************************
